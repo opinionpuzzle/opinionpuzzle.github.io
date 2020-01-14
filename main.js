@@ -102,7 +102,7 @@ const app = function () {
 			page.notice.appendChild(link);
 		}
 		} else {
-			_setNotice('');
+			_setNotice('zzzzzzzzzzz');
 		}
 	}
 

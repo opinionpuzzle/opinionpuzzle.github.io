@@ -21,7 +21,7 @@ const app = function () {
 	}
 
 	function _getPosts () {
-		_setNotice('Loading posts');
+		_setNotice('Loading posts xx');
 
 		fetch(_buildApiUrl(state.activePage, state.activeCategory))
 			.then((response) => response.json())

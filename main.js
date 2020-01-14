@@ -100,8 +100,6 @@ const app = function () {
 
 			page.notice.innerHTML = '';
 			page.notice.appendChild(link);
-		} else {
-			_setNotice('No more posts to display');
 		}
 	}
 

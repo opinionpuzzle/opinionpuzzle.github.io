@@ -1,7 +1,7 @@
 const app = function () {
   const API_BASE = 'https://script.google.com/macros/s/AKfycbz0F_UmD8WozEcAt-TmYe6AJh6Dp8fGb7Q4ADKw8rTTpRdWXs4/exec';
 	const API_KEY = 'abcdef';
-	const CATEGORIES = ['general', 'financial', 'technology', 'mmmmmmmmmmm'];
+	const CATEGORIES = ['general', 'financial', 'ttttttttttttttttt', 'mmmmmmmmmmm'];
 
 	const state = {activePage: 1, activeCategory: null};
 	const page = {};
@@ -21,7 +21,7 @@ const app = function () {
 	}
 
 	function _getPosts () {
-		_setNotice('Loading posts xx');
+		_setNotice('Loading posts');
 
 		fetch(_buildApiUrl(state.activePage, state.activeCategory))
 			.then((response) => response.json())
